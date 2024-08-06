@@ -24,9 +24,9 @@ homekit_accessory_t *accessories[] = {
     HOMEKIT_ACCESSORY(.id=1, .category=homekit_accessory_category_switch, .services=(homekit_service_t*[]) {
         HOMEKIT_SERVICE(ACCESSORY_INFORMATION, .characteristics=(homekit_characteristic_t*[]) {
             HOMEKIT_CHARACTERISTIC(NAME, "Stateless Programmable Switch"),
-            HOMEKIT_CHARACTERISTIC(MANUFACTURER, "Arduino HomeKit"),
+            HOMEKIT_CHARACTERISTIC(MANUFACTURER, "ESPHomeKit"),
             HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "0123456"),
-            HOMEKIT_CHARACTERISTIC(MODEL, "ESP8266/ESP32"),
+            HOMEKIT_CHARACTERISTIC(MODEL, "ESP01"),
             HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "1.0"),
             HOMEKIT_CHARACTERISTIC(IDENTIFY, my_accessory_identify),
             NULL
